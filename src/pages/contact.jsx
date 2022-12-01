@@ -5,16 +5,18 @@ const Contact = () => {
   
     return (
       <>
-        <h1>Nous contacter</h1>
-        <div className="contactinfo">
+       
+        <div className="contactinfo"> 
+        <div className="welcome-text">  
+         <h1 className="titrecontact">Nous contacter</h1>
         <ul>
         <li><span>Tel :</span> 0 800 00 69 07</li>
         <li><span>Mail :</span> jsp.test@gmail.com</li>
-        <li> <span>Web :</span> www.test.html.sida</li>
-
-        
+        <li> <span>Web :</span> www.test.html.sida</li>        
         </ul>
-<img  className="imagecont" src="image/logosida.svg" />
+        </div>
+     
+<img  className="img-container" src="image/logosida.svg" />
         </div>
 
         </>
