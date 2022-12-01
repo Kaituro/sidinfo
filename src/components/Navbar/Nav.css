@@ -9,7 +9,7 @@ header {
     background-color: var(--background-color);
 }
 
-img {
+.imagenav {
     width: 7vw;
     height: 7vw;
     margin: auto;

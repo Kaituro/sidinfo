@@ -6,7 +6,9 @@ footer {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height:fit-content;
     background-color: var(--main-color);
+    padding: 2%;
 }
 
 .footmention{

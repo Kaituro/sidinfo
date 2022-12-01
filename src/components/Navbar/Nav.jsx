@@ -6,7 +6,7 @@ const Navigation_bar = () => {
     <header>
       <div className="mobile-top-bar"></div>
       <div className="logo">
-        <img src="./image/logosida.svg" alt="marche pas" />
+        <img className="imagenav" src="./image/logosida.svg" alt="marche pas" />
         <h1>SexInfo</h1>
       </div>
 

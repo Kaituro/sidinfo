@@ -4,19 +4,20 @@ const Contact = () => {
     document.title = "SexInfo";
   
     return (
-      <div className="h_box">
-        <div>
+      <>
+        <h1>Nous contacter</h1>
+        <div className="contactinfo">
         <ul>
-        <li>Tel : 0 800 00 69 07</li>
-        <li>Mail : jsp.test@gmail.com</li>
-        <li>Web : www.test.html.sida</li>
+        <li><span>Tel :</span> 0 800 00 69 07</li>
+        <li><span>Mail :</span> jsp.test@gmail.com</li>
+        <li> <span>Web :</span> www.test.html.sida</li>
 
-        <img src="image/logosida.svg" />
+        
         </ul>
-
+<img  className="imagecont" src="image/logosida.svg" />
         </div>
 
-      </div>
+        </>
     );
   };
   
