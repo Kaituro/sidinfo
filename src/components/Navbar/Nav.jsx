@@ -7,9 +7,7 @@ const Navigation_bar = () => {
       <div className="mobile-top-bar"></div>
       <div className="logo">
         <img src="./1.png" alt="marche pas" />
-        <h1>
-          Dev<br></br> Academy
-        </h1>
+        <h1>SexInfo</h1>
       </div>
 
       <nav className="nav" id="nav">
