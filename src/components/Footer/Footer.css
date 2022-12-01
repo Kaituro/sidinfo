@@ -15,23 +15,37 @@ footer {
     height: auto;
     margin: auto;
     align-self: flex-start;
+    color:var(--background-color);
+    text-decoration: none;
 }
 
 .reseaux {
+    text-align:left ;
     align-self: flex-end;
     width: fit-content;
     margin: auto;
     height: auto;
+    align-items: center;
+    color: var(--background-color);
 }
 
-.reseaux li {
-    padding-left: 0;
+.reseaux li:not(:first-child) {
+    padding-left: 1vw;
+    
+}
+
+.reseaux i{
+    font-size: 1.8vw;
 }
 
 .reseaux ul {
     display: flex;
     flex-direction: row;
     list-style: none;
+    padding-left: 0;
+    width: fit-content;
+    
+    
 }
 
 @media (max-width: 480px) {

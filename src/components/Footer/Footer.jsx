@@ -5,10 +5,11 @@ const Footer_page = () => {
   return (
     <footer>
       <Link className="footmention" to="/Mention">
-        Mentions Légales
+        <h2>Mentions Légales</h2>
+        
       </Link>
       <div className="reseaux">
-        <h3>Contacts</h3>
+        <h2>Contacts</h2>
         <ul>
           <li>
             <i class="fa fa-instagram" aria-hidden="true"></i>

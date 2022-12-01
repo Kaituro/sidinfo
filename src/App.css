@@ -141,12 +141,9 @@ h2 {
     width: 35%;
 }
 
-<<<<<<< Updated upstream
 
-.contactinfo{
-=======
 .contactinfo {
->>>>>>> Stashed changes
+
     display: flex;
     flex-direction: row;
 }
@@ -176,52 +173,15 @@ h2 {
     padding: 0.8vw
 }
 
-<<<<<<< Updated upstream
 .contactinfo li{
     padding:0.8vw ;
 
 }
 
 .titrecontact{
-    font-size: 3vw;
+    font-size: 3vw !important;
 }
 @media (max-width: 480px) {}
-=======
-@media (max-width: 480px) {
-    .img-container {
-        display: none;
-    }
-    .welcome-text h1 {
-        font-size: 10vw;
-        margin: 0;
-    }
-    .welcome-text h2 {
-        width: 80%;
-        font-size: 5vw;
-        margin: 0;
-    }
-    .container {
-        width: 100%;
-    }
-    .welcome-text {
-        width: 80%;
-        margin: auto;
-        margin-top: 25%;
-        margin-bottom: 20%;
-    }
-    .welcome-text h2 {
-        width: 100%;
-    }
-    .protect,
-    .protect-2 {
-        width: 90%;
-        margin: auto;
-    }
-    footer {
-        display: none;
-    }
-}
->>>>>>> Stashed changes
 
 @supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
     h1,
@@ -234,8 +194,5 @@ h2 {
         /*reset for mobile browsers */
         font-weight: normal;
     }
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 }

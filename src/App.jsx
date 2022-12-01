@@ -1,6 +1,6 @@
 import "./App.css";
 import Navigation_bar from "./components/Navbar/Nav";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import Contact from "./pages/contact";
 import Informations from "./pages/Information";
 import { Route, Routes } from "react-router-dom";
