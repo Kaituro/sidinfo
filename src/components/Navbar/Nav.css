@@ -1,0 +1,163 @@
+@import '../../App.css';
+header {
+    top: 0;
+    position: absolute;
+    height: 21vh;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+img {
+    width: 7vw;
+    height: 7vw;
+    margin: auto;
+    margin-right: 1vw;
+}
+
+.logo {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo h1 {
+    margin: auto;
+    font-size: 2.25vw;
+}
+
+.nav {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    margin: auto;
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 5rem;
+    padding: 0 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 1.39vw;
+    padding: 0;
+    margin: auto;
+    color: var(--text-color);
+}
+
+.nav li.active {
+    color: var(--main-color);
+}
+
+.nav li:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px var(--main-color);
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+
+.nav li:hover:after {
+    transform: scaleX(1);
+}
+
+.nav li:nth-child(4):hover:after {
+    transform: scaleX(0);
+}
+
+#login-register {
+    width: 14vw;
+    height: 4.5vw;
+    margin: auto;
+    background-color: var(--background-color);
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    font-weight: 700;
+    font-size: 1.39vw;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#login-register:hover {
+    background-color: var(--main-color);
+    opacity: 0.6;
+    color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dark_mode #login-register:hover {
+    opacity: 1;
+}
+
+.mobile-top-bar {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .nav {
+        position: fixed;
+        right: 0;
+        width: 40%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: var(--main-color);
+        z-index: 100;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 2rem;
+        transform: translateX(100%);
+        transition: all 0.2s;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        opacity: 0.9;
+    }
+    .nav-open {
+        transform: translateX(0%);
+    }
+    .nav li {
+        font-size: 6vw;
+        margin: 0;
+        color: white;
+    }
+    .logo h1 {
+        font-size: 6.5vw;
+    }
+    img {
+        width: 20vw;
+        height: 20vw;
+        margin-right: 3vw;
+    }
+    .nav li:nth-child(1) {
+        margin-top: 110%;
+    }
+    .mobile-top-bar {
+        position: absolute;
+        top: 0;
+        display: block;
+        width: 100%;
+        height: 20px;
+        background-color: var(--main-color);
+    }
+    .nav li.active {
+        color: #282828;
+    }
+    #login-register {
+        width: 90%;
+        height: 5%;
+        font-size: 4vw;
+        margin-top: 10px;
+    }
+}
