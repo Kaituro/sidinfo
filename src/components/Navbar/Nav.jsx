@@ -1,5 +1,6 @@
 import "./Nav.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import Burger from "../Burger-button/Burger";
 
 const Navigation_bar = () => {
   return (
@@ -9,6 +10,7 @@ const Navigation_bar = () => {
         <img className="imagenav" src="./image/logosida.svg" alt="marche pas" />
         <h1>SexInfo</h1>
       </div>
+      <Burger></Burger>
 
       <nav className="nav" id="nav">
         <CustomLink to="/">Home</CustomLink>

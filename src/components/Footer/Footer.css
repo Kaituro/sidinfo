@@ -1,18 +1,17 @@
 @import '../../App.css';
-
 footer {
     position: relative;
     bottom: 0;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height:fit-content;
+    height: fit-content;
     background-color: var(--main-color);
     padding: 2%;
 }
 
-.footmention{
-    width:fit-content ;
+.footmention {
+    width: fit-content;
     height: auto;
     margin: auto;
     align-self: flex-start;
@@ -25,12 +24,18 @@ footer {
     height: auto;
 }
 
-.reseaux li{
+.reseaux li {
     padding-left: 0;
 }
 
-.reseaux ul{
+.reseaux ul {
     display: flex;
     flex-direction: row;
     list-style: none;
+}
+
+@media (max-width: 480px) {
+    footer {
+        display: none;
+    }
 }

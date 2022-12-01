@@ -30,7 +30,7 @@ const Home = () => {
             data-aos-once="true"
           >
             vous pouvez naviguer sur ce site pour vous amuser et vous renseigner
-            sur les maladies sexuellement transmisbiles.
+            sur les maladies sexuellement transmissibles.
           </h2>
         </div>
 
@@ -114,7 +114,7 @@ const Home = () => {
               data-aos-delay="500"
               data-aos-once="true"
             >
-              UIl faut s’informer sur les sites dédiés !
+              Il faut s’informer sur les sites dédiés !
             </p>
           </div>
           <div className="p-img">
