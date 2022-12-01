@@ -4,22 +4,17 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 const Footer_page = () => {
   return (
     <footer>
-      <Link to="/Mention">Mentions Légales</Link>
+      <Link className="footmention" to="/Mention">Mentions Légales</Link>
+     <div className="reseaux">
+      <h3>Contacts</h3>
+      <ul>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-facebook-f"></i></li>
+        </ul></div>
+      
     </footer>
   );
 };
-
-// function CustomLink({ to, children, ...props }) {
-//   const resolvedPath = useResolvedPath(to);
-//   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
-
-//   return (
-//     <li className={isActive ? "active" : ""}>
-//       <Link to={to} {...props}>
-//         {children}
-//       </Link>
-//     </li>
-//   );
-// }
 
 export default Footer_page;
