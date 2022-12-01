@@ -141,6 +141,7 @@ h2 {
     width: 35%;
 }
 
+<<<<<<< Updated upstream
 .contactinfo{
     display: flex;
     flex-direction: row;
@@ -166,4 +167,19 @@ h2 {
 
 .contactinfo li{
     padding:0.8vw ;
+=======
+@media (max-width: 480px) {}
+
+@supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    button {
+        /*reset for mobile browsers */
+        font-weight: normal;
+    }
+>>>>>>> Stashed changes
 }
