@@ -5,6 +5,34 @@
     --secondary-color: rgba(254, 119, 133, 0.56);
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url("../public/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-semi-bold";
+    src: url("../public/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+h1,
+span {
+    font-family: "Montserrat-bold";
+}
+
+h2 {
+    font-family: "Montserrat-semi-bold";
+}
+
 .h_box {
     display: flex;
     flex-direction: row;
@@ -13,17 +41,46 @@
 .container {
     width: 80%;
     margin: auto;
-    margin-top: 21vh;
 }
 
 .welcome-text {
-    width: 50%;
+    width: 60%;
+    margin: auto;
+}
+
+.img-container {
+    width: 40%;
+    margin: auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 .welcome-text h1 {
-    font-size: 3.5vw;
+    font-size: 4vw;
+    margin: 0;
+}
+
+.welcome-text h2 {
+    width: 80%;
+    font-size: 2vw;
+    margin: 0;
 }
 
 .welcome-text h1 span {
     color: var(--main-color);
 }
+
+.fil {
+    width: 2vw;
+    background-color: var(--main-color);
+    height: 100vh;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+}
+
+.protect {}

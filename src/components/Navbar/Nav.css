@@ -1,11 +1,12 @@
 @import '../../App.css';
 header {
     top: 0;
-    position: fixed;
+    position: relative;
     height: 21vh;
     width: 100%;
     display: flex;
     align-items: stretch;
+    background-color: var(--background-color);
 }
 
 img {
