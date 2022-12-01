@@ -5,6 +5,11 @@
     --secondary-color: rgba(254, 119, 133, 0.56);
 }
 
+.dark_mode {
+    --background-color: hsl(0, 0%, 8.5%);
+    --text-color: #FFFFFF;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -12,6 +17,7 @@
 body {
     margin: 0;
     background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 @font-face {
@@ -177,7 +183,18 @@ h2 {
     font-size: 3vw !important;
 }
 
-@media (max-width: 480px) {}
+.link-to {
+    color: var(--text-color);
+    width: fit-content;
+    text-decoration: none;
+    border-bottom: 1px solid var(--text-color);
+    font-size: 1.5vw;
+    transition: all 0.2s;
+}
+
+.link-to:hover {
+    border-color: var(--main-color);
+}
 
 .contactinfo li {
     padding: 0.8vw;
@@ -194,6 +211,9 @@ h2 {
     .welcome-text h1 {
         font-size: 10vw;
         margin: 0;
+    }
+    .link-to {
+        font-size: 4vw;
     }
     .welcome-text h2 {
         width: 80%;

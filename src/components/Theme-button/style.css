@@ -1,0 +1,39 @@
+@import '../../App.css';
+#theme_change {
+    background-color: var(--background-color);
+    width: 3vw;
+    height: 3vw;
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    z-index: 1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+#theme_change i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.25vw;
+    transform: translate(-50%, -50%);
+    color: var(--main-color);
+}
+
+.dark_mode #theme_change {
+    background-color: #282828;
+}
+
+@media (max-width: 480px) {
+    #theme_change {
+        bottom: 10vw;
+        right: 15vw;
+        width: 10vw;
+        height: 10vw;
+    }
+    #theme_change i {
+        font-size: 4vw;
+    }
+}

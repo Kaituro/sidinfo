@@ -5,11 +5,14 @@ import Contact from "./pages/contact";
 import Informations from "./pages/Information";
 import { Route, Routes } from "react-router-dom";
 import Footer_page from "./components/Footer/Footer";
+import ThemeButton from "./components/Theme-button/Theme";
+
 import Mention from "./pages/Mention";
 function App() {
   return (
     <div>
       <Navigation_bar></Navigation_bar>
+      <ThemeButton></ThemeButton>
       <div className="container">
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>

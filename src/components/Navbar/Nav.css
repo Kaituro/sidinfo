@@ -73,10 +73,6 @@ header {
     transform: scaleX(1);
 }
 
-.nav li:nth-child(4):hover:after {
-    transform: scaleX(0);
-}
-
 #login-register {
     width: 14vw;
     height: 4.5vw;

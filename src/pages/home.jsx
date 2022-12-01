@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useState, useEffect } from "react";
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 const Home = () => {
   document.title = "SexInfo";
@@ -31,6 +32,8 @@ const Home = () => {
           >
             vous pouvez naviguer sur ce site pour vous amuser et vous renseigner
             sur les maladies sexuellement transmissibles.
+            <br></br>
+            <Link className="link-to">Jouer →</Link>
           </h2>
         </div>
 
