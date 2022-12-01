@@ -50,6 +50,6 @@ footer {
 
 @media (max-width: 480px) {
     footer {
-        display: none;
+        margin-top: 30vh;
     }
 }
