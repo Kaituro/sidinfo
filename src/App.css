@@ -5,3 +5,25 @@
     --secondary-color: rgba(254, 119, 133, 0.56);
 }
 
+.h_box {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 21vh;
+}
+
+.welcome-text {
+    width: 50%;
+}
+
+.welcome-text h1 {
+    font-size: 3.5vw;
+}
+
+.welcome-text h1 span {
+    color: var(--main-color);
+}

@@ -1,7 +1,7 @@
 @import '../../App.css';
 header {
     top: 0;
-    position: absolute;
+    position: fixed;
     height: 21vh;
     width: 100%;
     display: flex;

@@ -7,9 +7,9 @@ const Contact = () => {
       <div className="h_box">
         <div>
         <ul>
-        <li>Tel</li>
-        <li>Mail</li>
-        <li>Web</li>
+        <li>Tel : 0 800 00 69 07</li>
+        <li>Mail : jsp.test@gmail.com</li>
+        <li>Web : www.test.html.sida</li>
 
         <img src="image/logosida.svg" />
         </ul>
