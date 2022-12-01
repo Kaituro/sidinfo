@@ -141,13 +141,7 @@ h2 {
     width: 35%;
 }
 
-<<<<<<< Updated upstream
-
 .contactinfo {
-
-=======
-.contactinfo {
->>>>>>> Stashed changes
     display: flex;
     flex-direction: row;
 }
@@ -175,17 +169,16 @@ h2 {
     padding: 0.8vw
 }
 
-<<<<<<< Updated upstream
-.contactinfo li{
-    padding:0.8vw ;
-
+.contactinfo li {
+    padding: 0.8vw;
 }
 
-.titrecontact{
+.titrecontact {
     font-size: 3vw !important;
 }
+
 @media (max-width: 480px) {}
-=======
+
 .contactinfo li {
     padding: 0.8vw;
 }
@@ -237,7 +230,6 @@ h2 {
         font-size: 2;
     }
 }
->>>>>>> Stashed changes
 
 @supports (selector(:nth-child(1 of x))) or (-webkit-touch-callout: none) {
     h1,
@@ -250,8 +242,4 @@ h2 {
         /*reset for mobile browsers */
         font-weight: normal;
     }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
