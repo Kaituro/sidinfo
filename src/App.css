@@ -41,6 +41,7 @@ h2 {
 .container {
     width: 80%;
     margin: auto;
+    margin-bottom: 20%;
 }
 
 .welcome-text {
@@ -77,10 +78,62 @@ h2 {
 .fil {
     width: 2vw;
     background-color: var(--main-color);
-    height: 100vh;
+    height: 200vh;
     border-radius: 25px;
     position: absolute;
     left: 50%;
 }
 
-.protect {}
+.slide {
+    margin-top: 25vh;
+}
+
+.protect,
+.protect-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pp {
+    margin-top: 20%;
+}
+
+.protect .p-text {
+    width: 60%;
+}
+
+.p-text h1 {
+    font-size: 4vw;
+}
+
+.protect .p-text p,
+.protect2 .p-text p {
+    width: 60%;
+}
+
+.p-text p {
+    font-size: 2vw;
+}
+
+.p-img i {
+    font-size: 10vw;
+    color: var(--main-color);
+}
+
+.protect .p-img {
+    margin: auto;
+}
+
+.p-img {
+    text-align: center;
+}
+
+.protect-2 .p-text {
+    margin: auto;
+    margin-right: 0;
+}
+
+.protect-2 .p-img {
+    width: 35%;
+}
