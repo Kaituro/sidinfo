@@ -29,7 +29,7 @@ img {
 .nav {
     position: absolute;
     top: 35px;
-    right: 25px;
+    right: 5rem;
     margin: auto;
     height: 7vw;
     display: flex;

@@ -6,14 +6,15 @@ const Navigation_bar = () => {
     <header>
       <div className="mobile-top-bar"></div>
       <div className="logo">
-        <img src="./1.png" alt="marche pas" />
+        <img src="./image/logosida.svg" alt="marche pas" />
         <h1>SexInfo</h1>
       </div>
 
       <nav className="nav" id="nav">
         <CustomLink to="/">Home</CustomLink>
-        <CustomLink to="/Free-Tutorials">Tutorials</CustomLink>
-        <CustomLink to="/Premium-courses">Courses</CustomLink>
+        <CustomLink to="/Informations">Informations</CustomLink>
+        <CustomLink to="/Jeu">Jeu</CustomLink>
+        <CustomLink to="/Contact">Contact</CustomLink>
       </nav>
     </header>
   );
