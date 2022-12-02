@@ -12,13 +12,15 @@ const Footer_page = () => {
         <h2>Contacts</h2>
         <ul>
           <li>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
+          <a href="https://www.instagram.com/sida_info_service/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+           
           </li>
           <li>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <a href="https://twitter.com/SidaInfoService">  <i class="fa fa-twitter" aria-hidden="true"></i></a>          
           </li>
           <li>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <a href="https://www.facebook.com/SidaInfoService"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            
           </li>
         </ul>
       </div>

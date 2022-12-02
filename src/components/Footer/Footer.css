@@ -35,6 +35,7 @@ footer {
 
 .reseaux i {
     font-size: 1.8vw;
+    color:var(--background-color);
 }
 
 .reseaux ul {
@@ -43,6 +44,9 @@ footer {
     list-style: none;
     padding-left: 0;
     width: fit-content;
+}
+.reseaux a{
+    text-decoration: none;
 }
 
 footer a,
