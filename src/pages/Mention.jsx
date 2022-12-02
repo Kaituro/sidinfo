@@ -9,6 +9,7 @@ const Mention = () => {
 
   return (
     <div className="conteneur_mention">
+      <h1>Mentions légales</h1>
       <p>
         <span>Éditeur du Site :</span> Equipe Champ.py nuit de l'informatique
         2022

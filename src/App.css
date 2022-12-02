@@ -57,6 +57,10 @@ p {
     margin: auto;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .img-container {
     width: 40%;
     margin: auto;
@@ -359,6 +363,20 @@ h3 {
 
 .informationcorps p:not(:last-child) {
     margin-bottom: 10vh;
+}
+
+.conteneur_mention {
+    width: 80%;
+    margin: auto;
+}
+
+.conteneur_mention h1 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.conteneur_mention span {
+    color: var(--main-color);
 }
 
 @media (max-width: 480px) {

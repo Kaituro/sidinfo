@@ -1,12 +1,16 @@
 import "./Nav.css";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link, useMatch, useResolvedPath, useNavigate } from "react-router-dom";
 import Burger from "../Burger-button/Burger";
 
 const Navigation_bar = () => {
+  const navigate = useNavigate();
+  const home = () => {
+    navigate("/");
+  };
   return (
     <header>
       <div className="mobile-top-bar"></div>
-      <div className="logo">
+      <div className="logo" onClick={() => home()}>
         <img className="imagenav" src="./image/logosida.svg" alt="marche pas" />
         <h1>SexInfo</h1>
       </div>
