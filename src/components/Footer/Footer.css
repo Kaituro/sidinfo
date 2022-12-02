@@ -45,6 +45,22 @@ footer {
     width: fit-content;
 }
 
+
+.reseaux li:nth-child(3):hover i{
+    color: #2C3456 !important;
+    transition: 0.5s;
+}
+
+.reseaux li:nth-child(2):hover i{
+    color: #6A9AEE !important;
+    transition: 0.5s;
+}
+
+.reseaux li:nth-child(1):hover i{
+    color: #CC296C !important;
+    transition: 0.5s;
+}
+
 footer a {
     font-size: 1vw;
 }

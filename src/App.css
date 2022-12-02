@@ -36,12 +36,8 @@ span {
     font-family: "Montserrat-bold";
 }
 
-<<<<<<< Updated upstream
-h2,p {
-=======
 h2,
 p {
->>>>>>> Stashed changes
     font-family: "Montserrat-semi-bold";
 }
 
@@ -345,4 +341,16 @@ h3 {
 
 .informationcorps p:not(:last-child){
     margin-bottom:5vw ;
+}
+
+.conteneur_mention{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+
+}
+
+.conteneur_mention span{
+    color: var(--main-color);
 }
