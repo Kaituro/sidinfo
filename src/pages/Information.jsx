@@ -36,58 +36,45 @@ const Information = () => {
           Les infections sexuellement transmissibles (IST), autrefois appelées
           maladies sexuellement transmissibles (MST), sont des infections
           pouvant être transmises lors des relations sexuelles, avec ou sans
-          pénétration.
+          pénétration. La plus tristement célèbre est le sida mais il en existe
+          d’autres comme l’hépatite B, l’herpès, la syphilis, etc. Il existe un
+          traitement pour chacune mais seuls le dépistage et les préservatifs
+          permettent de réellement s’en protéger.
         </p>
 
         <div className="droiteinfo">
-          <h2>Qu'est ce que le SIDA ?</h2>
+          <h2>Comment se protéger ?</h2>
         </div>
         <p>
-          Le VIH, virus du sida (Syndrome Immuno Déficience Acquise), serait
-          issu d’une mutation d’un virus présent chez certains singes d’Afrique.
-          La contamination vers l’homme aurait eu lieu dans les années 1940,
-          avant de connaître un essor à la fin des années 1970. Qualifié de «
-          cancer gay » aux États-Unis au début des années 1980, le virus a été
-          identifié en 1983 à l’institut Pasteur par l’équipe de Luc Montagnier
-          et Françoise Barré-Sinoussi. De 1981 à 2006, l’épidémie a tué 25
-          millions de personnes. Avec l’arrivée des trithérapies dans les années
-          1990, les soins ont beaucoup progressé, il n’existe cependant toujours
-          pas de vaccin.
+          Pour se protéger il faut utiliser un préservatif pour toute
+          pénétration mais aussi pour la fellation. Rassurez-vous, le
+          préservatif masculin n’est pas la seule solution : il existe des
+          préservatifs féminins(lien?) et, pour le cunnilingus ou l’anulingus,
+          une digue dentaire peut être utilisée. Certains traitements permettent
+          aussi de se protéger efficacement. Par exemple, il existe un vaccin
+          contre l’hépatite B et La PrEP(lien) permet d’être protégé du VIH pour
+          tout rapport sexuel. Une solution sans médicament consiste à n’avoir
+          de rapport qu’avec des personnes qui ont effectué des dépistages et
+          n’ont eu aucun rapport à risque depuis.
         </p>
 
         <div className="gaucheinfo">
-          <h2>Différences entre sida et VIH :</h2>
-        </div>
-        <p>
-          Le virus de l'immunodéficience humaine (VIH) est un type de virus qui
-          attaque le système immunitaire du corps. Bien que l'infection par le
-          VIH soit une affection chronique maîtrisable, si elle n'est pas
-          traitée, elle peut affaiblir le système immunitaire ou évoluer vers le
-          syndrome d'immunodéficience acquise (sida).
-        </p>
-        <div className="gaucheinfo">
-          <h3>Pourquoi ne pas confondre ?</h3>
-        </div>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-          rerum. Delectus, minima? Magnam debitis nobis doloremque voluptates
-          minima harum et quas quod quo exercitationem, voluptatem assumenda
-          ratione accusantium non hic.
-        </p>
-
-        <div className="droiteinfo">
           <h2>L'importance du dépistage ?</h2>
         </div>
         <p>
-          Le dépistage permet d'accéder au traitement et un traitement efficace
-          est un excellent outil de prévention du VIH : il sauve des vies et
-          prévient la transmission du VIH. Le traitement du VIH réduit la charge
-          virale, c'est-à-dire la quantité de VIH présente dans l'organisme
-          d'une personne, à des niveaux indétectables.
+          La plupart des IST se soignent efficacement si le traitement adéquat
+          est commencé assez tôt, dans le cas contraire il peut arriver de
+          graves complications. C’est pourquoi il est important de se faire
+          dépister régulièrement dans le cas de multiples rapports à risque. Il
+          est aussi conseillé d’effectuer un dépistage avant d’arrêter
+          d’utiliser le préservatif avec son/sa conjoint/e.
+          <br></br>Il existe de nombreux lieux pour se faire dépister autour de
+          vous. N’hésitez pas à vous renseigner dans les associations de votre
+          ville, ils vous redirigeront vers les endroits appropriés. Sinon,
+          voici quelques sites répertoriant des centre de dépistages en France :
         </p>
 
-        <div className="gaucheinfo" id="protection">
+        <div className="droiteinfo" id="protection">
           <h2>Comment se protéger ?</h2>
         </div>
         <p>
@@ -95,17 +82,58 @@ const Information = () => {
           : Relations monogames entre partenaires sains. Rapports sexuels sans
           pénétration. Utilisation systématique et correcte d'un préservatif
           masculin ou féminin.
+          <br></br>
+          <br></br>
+          Liens :<br></br> <br></br>
+          <a
+            className="link-infos"
+            target="_blank"
+            href="https://www.sida-info-service.org/ou-faire-un-test-de-depistage-du500/"
+          >
+            Sida Info Service
+          </a>
+          <br></br> <br></br>
+          <a
+            className="link-infos"
+            target="_blank"
+            href="https://www.aides.org/depistage-vih-sida?gclid=Cj0KCQiAvqGcBhCJARIsAFQ5ke42WgGE38-94SeAGckW-8jGGKxbcXZd_03AVBaeQyKHSIBMSKaOyrIaAk6yEALw_wcB"
+          >
+            Aides
+          </a>
+          <br></br> <br></br>
         </p>
 
         <div className="droiteinfo">
-          <h2>Les soins inexistants ?</h2>
+          <h2>Les principaux préjugés :</h2>
         </div>
         <p>
-          Le traitement combiné comportant au moins trois médicaments
-          antirétroviraux différents est aujourd'hui devenu la norme pour toutes
-          les personnes nouvellement diagnostiquées séropositives au VIH. Le
-          traitement antirétroviral combiné empêche le VIH de se multiplier et
-          peut faire disparaître le virus dans le sang.
+          “Je le saurais si mon/ma partenaire ou moi avait une IST” Il arrive
+          souvent que les symptômes d’une IST soient peu visibles voir absents.
+          Et pourtant le porteur est tout de même contagieux; il est donc
+          important de se faire dépister avant d’arrêter de se protéger.
+        </p>
+
+        <p>
+          “Il n’y a aucun risque s’il n’y a pas d’éjaculation” Tout au long de
+          l’acte il y a des sécrétions vaginales ou du liquide séminale qui
+          peuvent transmettre de potentielles IST. C’est pourquoi mettre lors
+          d’un rapport oral il faut se protéger.
+        </p>
+
+        <p>
+          “Le sida peut se transmettre en s’embrassant” Non, le sida ne se
+          transmet pas en s’embrassant. Cependant d’autres maladies, telles que
+          la mononucléose et l’herpès labial, oui. Il n’existe malheureusement
+          pas que le sida mais, heureusement, la plupart des autres IST peuvent
+          se soigner si elles sont dépistées et traitées au plus tôt.
+        </p>
+
+        <p>“Ce sont surtout les relations homosexuelles qui sont à risque”</p>
+
+        <p>
+          Toute relation sexuelle sans protection est à risque. Quelle que soit
+          l’orientation des participants, le risque existe et est à prendre en
+          compte.
         </p>
 
         <div className="gaucheinfo">
@@ -121,7 +149,18 @@ const Information = () => {
           Aujourd'hui, grâce aux traitements et à une bonne hygiène de vie, une
           personne porteuse du VIH (virus de l'immunodéficience humaine) peut
           avoir la même vie familiale, sociale et professionnelle qu'une
-          personne n'ayant pas le virus
+          personne n'ayant pas le virus.
+        </p>
+
+        <div className="droiteinfo" id="ecouter">
+          <h2>S'exprimer, être écouté :</h2>
+        </div>
+        <p>
+          Il existe surement des associations dans votre ville qui pourront vous
+          accueillir, vour informer et vous rediriger si besoin vers les
+          infrastructures que vous recherchez. Voici, en plus, quelques
+          ressources en ligne indiquant des lieux/moyens d'expressions et
+          d'écoute sur les IST et d'autre sujets liés.
         </p>
       </div>
     </div>

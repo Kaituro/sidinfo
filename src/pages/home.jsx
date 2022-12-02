@@ -125,10 +125,7 @@ const Home = () => {
               primer c’est important !<br></br>
               <Link
                 className="link-to little-l"
-                to={"/Contact"}
-                onClick={() => {
-                  window.scrollTo(0);
-                }}
+                to={"/Informations?target=ecouter"}
               >
                 Voir plus →
               </Link>

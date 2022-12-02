@@ -62,6 +62,10 @@ p {
     cursor: pointer;
 }
 
+.link-infos {
+    color: var(--main-color);
+}
+
 .img-container {
     width: 40%;
     margin: auto;

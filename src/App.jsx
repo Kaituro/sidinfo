@@ -6,7 +6,7 @@ import Informations from "./pages/Information";
 import { Route, Routes } from "react-router-dom";
 import Footer_page from "./components/Footer/Footer";
 import ThemeButton from "./components/Theme-button/Theme";
-
+import Jeu from "./pages/Jeu";
 import Mention from "./pages/Mention";
 import { useEffect } from "react";
 function App() {
@@ -31,6 +31,7 @@ function App() {
             path="/Informations"
             element={<Informations></Informations>}
           ></Route>
+          <Route path="/Jeu" element={<Jeu></Jeu>}></Route>
           <Route path="/Contact" element={<Contact></Contact>}></Route>
           <Route path="/Mention" element={<Mention></Mention>}></Route>
         </Routes>

@@ -16,10 +16,11 @@ const Contact = () => {
               <span>Tel :</span> 0 800 00 69 07
             </li>
             <li>
-              <span>Mail :</span> jsp.test@gmail.com
+              <span>Mail :</span> vltdev.pro@gmail.com
             </li>
             <li>
-              <span>Web :</span> www.test.html.sida
+              <span>Web : </span>
+              https://www.sida-info-service.org/
             </li>
           </ul>
         </div>
