@@ -91,6 +91,7 @@ h2,p {
     position: absolute;
     left: 50%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    z-index: -1;
 }
 
 .slide {
@@ -102,6 +103,7 @@ h2,p {
     width: 100%;
     display: flex;
     flex-direction: row;
+    z-index: 10;
 }
 
 .pp {
@@ -242,6 +244,11 @@ h2,p {
     .protect-2 {
         width: 80%;
         margin: auto;
+        background-color: var(--background-color);
+        padding: 5%;
+        border-radius: 20px;
+        box-shadow: rgb(0 0 0 / 5%) 0px 4px 10px 0px, rgb(0 0 0 / 5%) 0px 2px 6px 0px;
+        z-index: 10;
     }
     .pp {
         margin-top: 20vh;
@@ -250,7 +257,7 @@ h2,p {
         font-size: 15vw;
     }
     .fil {
-        height: 120%;
+        height: 140%;
     }
     .p-text p {
         font-size: 2;
@@ -261,6 +268,13 @@ h2,p {
     .welcome-text ul {
         width: 100%;
         padding: 5%;
+    }
+    .p-text h1 {
+        font-size: 6vw;
+    }
+    .dark_mode .protect,
+    .dark_mode .protect-2 {
+        background-color: #282828;
     }
 }
 
@@ -277,7 +291,7 @@ h2,p {
     }
 }
 
-.informationcorps{
+.informationcorps {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -285,8 +299,9 @@ h2,p {
     margin:auto;
 }
 
-.informationcorps h2,h3{
-    color:var(--main-color);
+.informationcorps h2,
+h3 {
+    color: var(--main-color);
 }
 
 .gaucheinfo{
