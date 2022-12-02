@@ -8,7 +8,18 @@ import Footer_page from "./components/Footer/Footer";
 import ThemeButton from "./components/Theme-button/Theme";
 
 import Mention from "./pages/Mention";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    if (
+      localStorage.getItem("dark_mode") !== undefined &&
+      localStorage.getItem("dark_mode") !== null
+    ) {
+      document.body.classList.add("dark_mode");
+      document.getElementById("moon").className = "fas fa-sun";
+    }
+  }, []);
+
   return (
     <div>
       <Navigation_bar></Navigation_bar>

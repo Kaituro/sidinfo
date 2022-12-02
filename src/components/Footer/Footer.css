@@ -45,8 +45,9 @@ footer {
     width: fit-content;
 }
 
-footer a {
-    font-size: 1vw;
+footer a,
+footer h2 {
+    font-size: 1.5vw;
 }
 
 @media (max-width: 480px) {

@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   document.title = "SexInfo";
-
+  window.scrollTo({
+    behavior: "smooth",
+    top: 0,
+  });
   return (
     <>
       <div className="contactinfo">
@@ -16,7 +19,6 @@ const Contact = () => {
               <span>Mail :</span> jsp.test@gmail.com
             </li>
             <li>
-              {" "}
               <span>Web :</span> www.test.html.sida
             </li>
           </ul>

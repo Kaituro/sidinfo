@@ -1,13 +1,18 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useState, useEffect } from "react";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link, useMatch, useResolvedPath, useNavigate } from "react-router-dom";
 
 const Home = () => {
   document.title = "SexInfo";
+  window.scrollTo({
+    behavior: "smooth",
+    top: 0,
+  });
 
   useEffect(() => {
     AOS.init();
+
     AOS.refresh();
   }, []);
 
@@ -33,7 +38,9 @@ const Home = () => {
             vous pouvez naviguer sur ce site pour vous amuser et vous renseigner
             sur les maladies sexuellement transmissibles.
             <br></br>
-            <Link className="link-to">Jouer →</Link>
+            <Link className="link-to" to="/Jeu">
+              Jouer →
+            </Link>
           </h2>
         </div>
 
@@ -65,6 +72,13 @@ const Home = () => {
               data-aos-once="true"
             >
               Utilisations de contracesptifs (préservatifs, pillules...)
+              <br></br>
+              <Link
+                className="link-to  little-l"
+                to={"/Informations?target=protection"}
+              >
+                Voir plus →
+              </Link>
             </p>
           </div>
           <div className="p-img">
@@ -94,7 +108,16 @@ const Home = () => {
               data-aos-delay="500"
               data-aos-once="true"
             >
-              SEXprimer c’est important !
+              SEXprimer c’est important !<br></br>
+              <Link
+                className="link-to little-l"
+                to={"/Contact"}
+                onClick={() => {
+                  window.scrollTo(0);
+                }}
+              >
+                Voir plus →
+              </Link>
             </p>
           </div>
         </div>
@@ -117,7 +140,16 @@ const Home = () => {
               data-aos-delay="500"
               data-aos-once="true"
             >
-              Il faut s’informer sur les sites dédiés !
+              Il faut s’informer sur les sites dédiés !<br></br>
+              <Link
+                className="link-to  little-l"
+                to={"/Informations"}
+                onClick={() => {
+                  window.scrollTo(0);
+                }}
+              >
+                Voir plus →
+              </Link>
             </p>
           </div>
           <div className="p-img">

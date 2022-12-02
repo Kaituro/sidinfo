@@ -11,7 +11,6 @@ const Theme = () => {
     } else {
       classList.add("dark_mode");
       localStorage.setItem("dark_mode", "enabled");
-
       ico.className = "fas fa-sun";
     }
   };

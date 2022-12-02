@@ -13,9 +13,9 @@ const Navigation_bar = () => {
       <Burger></Burger>
 
       <nav className="nav" id="nav">
-        <CustomLink to="/">Home</CustomLink>
+        <CustomLink to="/">Accueil</CustomLink>
         <CustomLink to="/Informations">Informations</CustomLink>
-        <CustomLink to="/Jeu">Jeu</CustomLink>
+        <CustomLink to="/Jeu">Jouer</CustomLink>
         <CustomLink to="/Contact">Contact</CustomLink>
       </nav>
     </header>
