@@ -36,7 +36,12 @@ span {
     font-family: "Montserrat-bold";
 }
 
+<<<<<<< Updated upstream
 h2,p {
+=======
+h2,
+p {
+>>>>>>> Stashed changes
     font-family: "Montserrat-semi-bold";
 }
 
@@ -228,6 +233,13 @@ h2,p {
         font-size: 5vw;
         margin: 0;
     }
+    .p-img {
+        width: fit-content;
+        margin: 0;
+    }
+    .p-text {
+        width: 100%;
+    }
     .container {
         width: 100%;
     }
@@ -257,10 +269,11 @@ h2,p {
         font-size: 15vw;
     }
     .fil {
-        height: 140%;
+        height: 145%;
     }
     .p-text p {
-        font-size: 2;
+        width: 100%;
+        font-size: 2.5vw;
     }
     .titrecontact {
         font-size: 8vw !important;
@@ -275,6 +288,18 @@ h2,p {
     .dark_mode .protect,
     .dark_mode .protect-2 {
         background-color: #282828;
+    }
+    .protect .p-text p,
+    .protect2 .p-text p {
+        width: 100%;
+    }
+    .protect-2 .p-text {
+        width: 90%;
+        margin: auto;
+        text-align: right;
+    }
+    .protect-2 .p-img {
+        margin: auto;
     }
 }
 

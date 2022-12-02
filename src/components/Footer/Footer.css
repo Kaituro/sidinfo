@@ -55,6 +55,9 @@ footer a {
     }
     footer a,
     footer h2 {
-        font-size: 2vw;
+        font-size: 2.5vw;
+    }
+    .reseaux i {
+        font-size: 3vw;
     }
 }
