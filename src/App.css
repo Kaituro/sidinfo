@@ -263,3 +263,24 @@ h2 {
         font-weight: normal;
     }
 }
+
+.informationcorps{
+    display: flex;
+    flex-direction: column;
+}
+
+.informationcorps h2,h3{
+    color:var(--main-color);
+}
+
+.gaucheinfo{
+    width: fit-content;
+    margin: auto;
+    margin-left: 1vw;
+}
+
+.droiteinfo{
+    width:fit-content ;    
+    margin: auto; 
+    margin-right: 1vw;   
+}
