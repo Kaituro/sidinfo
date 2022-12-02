@@ -36,7 +36,7 @@ span {
     font-family: "Montserrat-bold";
 }
 
-h2 {
+h2,p {
     font-family: "Montserrat-semi-bold";
 }
 
@@ -280,6 +280,9 @@ h2 {
 .informationcorps{
     display: flex;
     flex-direction: column;
+    text-align: left;
+    width: 80%;
+    margin:auto;
 }
 
 .informationcorps h2,h3{
@@ -287,13 +290,18 @@ h2 {
 }
 
 .gaucheinfo{
-    width: fit-content;
+    width: 100%;
     margin: auto;
-    margin-left: 1vw;
+    margin-left: 0.5vw;
+    text-align: left;
 }
 
 .droiteinfo{
     width:fit-content ;    
     margin: auto; 
-    margin-right: 1vw;   
+    margin-right: 0;  
+}
+
+.informationcorps p:not(:last-child){
+    margin-bottom:5vw ;
 }
