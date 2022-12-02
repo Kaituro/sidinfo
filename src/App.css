@@ -15,6 +15,7 @@
 }
 
 body {
+    width: 100%;
     margin: 0;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -85,7 +86,7 @@ h2 {
 .fil {
     width: 2vw;
     background-color: var(--main-color);
-    height: 210vh;
+    height: 120vw;
     border-radius: 25px;
     position: absolute;
     left: 50%;
@@ -152,6 +153,10 @@ h2 {
     flex-direction: row;
 }
 
+.dark_mode .contactinfo ul {
+    background-color: #282828;
+}
+
 .imagecont {
     width: 20vw;
     height: 20vw;
@@ -181,6 +186,7 @@ h2 {
 
 .titrecontact {
     font-size: 3vw !important;
+    margin-bottom: 5% !important;
 }
 
 .link-to {
@@ -248,6 +254,13 @@ h2 {
     }
     .p-text p {
         font-size: 2;
+    }
+    .titrecontact {
+        font-size: 8vw !important;
+    }
+    .welcome-text ul {
+        width: 100%;
+        padding: 5%;
     }
 }
 

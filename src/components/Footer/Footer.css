@@ -15,12 +15,12 @@ footer {
     height: auto;
     margin: auto;
     align-self: flex-start;
-    color:var(--background-color);
+    color: var(--background-color);
     text-decoration: none;
 }
 
 .reseaux {
-    text-align:left ;
+    text-align: left;
     align-self: flex-end;
     width: fit-content;
     margin: auto;
@@ -31,10 +31,9 @@ footer {
 
 .reseaux li:not(:first-child) {
     padding-left: 1vw;
-    
 }
 
-.reseaux i{
+.reseaux i {
     font-size: 1.8vw;
 }
 
@@ -44,12 +43,18 @@ footer {
     list-style: none;
     padding-left: 0;
     width: fit-content;
-    
-    
+}
+
+footer a {
+    font-size: 1vw;
 }
 
 @media (max-width: 480px) {
     footer {
         margin-top: 30vh;
+    }
+    footer a,
+    footer h2 {
+        font-size: 2vw;
     }
 }
