@@ -72,8 +72,7 @@ const Home = () => {
               data-aos-offset="300"
               data-aos-once="true"
             >
-              Utilisations de contracesptifs (préservatifs, pillules...)
-              <br></br>
+              Utilisations de contraceptifs (préservatifs, pilules...) <br></br>
               <Link
                 className="link-to  little-l"
                 to={"/Informations?target=protection"}
