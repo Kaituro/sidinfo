@@ -5,6 +5,7 @@ import { Link, useMatch, useResolvedPath, useNavigate } from "react-router-dom";
 
 const Home = () => {
   document.title = "SexInfo";
+
   window.scrollTo({
     behavior: "smooth",
     top: 0,
@@ -99,7 +100,14 @@ const Home = () => {
               data-aos-offset="400"
               data-aos-once="true"
             >
-              CommuNIQUER
+              Commu
+              <a
+                className="link-easter"
+                href="https://www.dorcelstore.com/fr/"
+                target="_blank"
+              >
+                NIQUER
+              </a>
             </h1>
             <p
               data-aos="fade-left"
@@ -108,7 +116,14 @@ const Home = () => {
               data-aos-delay="500"
               data-aos-once="true"
             >
-              SEXprimer c’est important !<br></br>
+              <a
+                className="link-easter"
+                href="https://www.durex.fr/"
+                target="_blank"
+              >
+                SEX
+              </a>
+              primer c’est important !<br></br>
               <Link
                 className="link-to little-l"
                 to={"/Contact"}
