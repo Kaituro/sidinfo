@@ -302,12 +302,13 @@ h2,p {
 .informationcorps h2,
 h3 {
     color: var(--main-color);
+    font-size: 2vw;
 }
 
 .gaucheinfo{
     width: 100%;
     margin: auto;
-    margin-left: 0.5vw;
+    margin-left: 0;
     text-align: left;
 }
 
