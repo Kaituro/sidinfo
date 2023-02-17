@@ -18,3 +18,7 @@ L’interface se veut dynamique de part ses animations, sans trop en faire.
 Pour le confort d’utilisation, nous avons implémenté un mode jour/nuit persistant.
 Nos camarades de la nuit de l’informatique nous ont aussi fait un petit jeu sur le thème de la soirée que nous avons donc intégré.
 Le site comporte aussi des petits easters-eggs dont nous vous laissons le plaisir de découvrir ! 
+ 
+ nouveau lien pour visiter le site :
+ 
+ valwars.github.io/Nuit-Info-React/
